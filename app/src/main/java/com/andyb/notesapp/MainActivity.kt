@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         val githubButton: Button = findViewById(R.id.github_button)
         githubButton.setOnClickListener {
-            val url = "https://github.com/mohamadandyb/NotesApp"
+            val url = "https://github.com/mohamadandyb/"
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(url)
             startActivity(intent)
